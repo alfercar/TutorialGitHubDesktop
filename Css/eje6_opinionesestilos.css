@@ -1,0 +1,57 @@
+
+body {
+    font-family: Verdana;
+    color: grey;
+}
+
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    }
+
+    /* Siempre hay que aplicar el display flex al padre */
+
+#image-container {
+
+display: flex;
+flex-direction: row;
+margin: 15px;
+
+}
+
+#info-container {
+
+    margin-left: 20px;
+}
+
+.generic-button {
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.reservation {background-color: white; border: 3px solid grey;}
+.presupuesto {background-color: grey; color: honeydew; border: none;}
+
+
+#derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#comentarios{ align-items: center; margin-right: 20px}
+#comentarios2{ align-items: center; margin-top: 5px;margin-bottom: 5px;}
+
+.puntuacion{ background-color:grey;color: black;border: 2px solid grey; font-size: 15px;}
+
+#valoracion {align-items: center;}
+
+
+
+
+
+/* #comentarios{ margin-right: 20px; margin-top: 20px;} */
+/* #comentarios2{ margin-bottom: 5px; margin-top: 5px;} */
