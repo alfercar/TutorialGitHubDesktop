@@ -1,0 +1,26 @@
+
+
+
+.circulo{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+
+}   
+
+.circulo-container{
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+
+.circulo:hover{ cursor: pointer; opacity: 0;}
+.image-container{
+    background-image: url(http://www.fondoswiki.com/Uploads/fondoswiki.com/Resoluciones/1318-800x600.jpg);
+}
+
+    
+    
